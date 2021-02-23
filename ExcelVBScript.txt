@@ -1,0 +1,11 @@
+Sub RunPython()
+
+    Dim shell As Object
+    Dim exePath, scriptPath As String
+    
+    Set shell = VBA.CreateObject("Wscript.Shell")
+    exePath = """C:\Users\johnn\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.8"""
+
+    
+
+End Sub
